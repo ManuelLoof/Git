@@ -1,2 +1,2 @@
 # Git
-My personal git cheatsheet
+My personal git cheatsheet.
