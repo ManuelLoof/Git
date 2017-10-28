@@ -3,33 +3,34 @@
 
 ## Basics ##
 
+Initialisiert ein neues Git Repository.
+
     git Init
 
-Initialisiert ein neues Git Repository.
+Fügt Dateien dem Repository hinzu.
 
     git add name
     git add *
 
-Fügt Dateien dem Repository hinzu.
+Check die Daten ein.
 
     git commit -m "Comment"
 
-Check die Daten ein.
-
-    git config color.ui true
-
 Farbige Konsolenausgabe.
 
-    git clone Verzeichnis
+    git config color.ui true
 
 Holt sich ein Repository vom Server und legt eine lokale
 Arbeitskopie an.
 
-    git remote add origin https://github.com/ManuelLoof/BASTA_2016.git
-    git push -u origin master
+    git clone Verzeichnis
 
 Logt sich auf GitHub ein und überträgt die Daten aus der Arbeitskopie auf den Server.
 
+    git remote add origin https://github.com/ManuelLoof/BASTA_2016.git
+    git push -u origin master
+
+Gibt die alle commit messages für das Projekt aus.
+
     git log --pretty=format:"%h - %an, %ar : %s"
     
-Gibt die alle commit messages für das Projekt aus.
