@@ -40,3 +40,9 @@ Löscht ein Verzeichnis aus dem Git Repository, aber nicht die lokale Kopie.
     git commit -m "Remove duplicated directory"
     git push origin <your-git-branch> (typically 'master', but not always)
     
+Den letzten commit Kommentar ändern.
+
+    https://help.github.com/articles/changing-a-commit-message/
+    
+
+    
