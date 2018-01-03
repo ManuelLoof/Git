@@ -5,7 +5,7 @@
 
 Initialisiert ein neues Git Repository.
 
-    git Init
+    git init
 
 Fügt Dateien dem Repository hinzu.
 
